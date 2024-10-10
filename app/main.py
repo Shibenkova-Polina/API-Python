@@ -65,7 +65,6 @@ def get_all_students_course(request_body: RBStudent = Depends()) -> List[SStuden
 
 # http://127.0.0.1:8000/docs    документация
 
-
 #@app.get("/student", response_model=SStudent)
 #def get_student_from_param_id(student_id: int):
 @app.get("/student")
